@@ -12,9 +12,10 @@ Se preferite lavorare con la versione offline potete utilizzare comunque il prog
 
 ### LET'S START
 
-Una volta scaricato il file .zip Thesis Template Polito ITA/ENG, vi basterà scompattarlo, andare sul vostro Account [ShareLatex](https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b), iniziare un nuovo progetto e quando vi è richiesto fare l'upload di un progetto esistente.
-Completato il caricamento avrete la vostra Tesi pronta per essere scritta!
+Una volta scaricato il file .zip Thesis Template Polito ITA/ENG, vi basterà scompattarlo, andare sul vostro Account [ShareLatex](https://www.sharelatex.com?r=cd3f76de&rm=d&rs=b), iniziare un nuovo progetto e quando vi è richiesto fare l'upload di un progetto esistente; completato il caricamento avrete la vostra Tesi pronta per essere scritta!
+
 Di seguito un indice di quello che descriverò in questa guida:
+
 
 
 
