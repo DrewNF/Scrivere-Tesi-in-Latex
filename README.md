@@ -1,2 +1,2 @@
-# Latex-Template-Polito
-Latex Template for develop a Report Thesis at the Politecnico di Torino
+# Scrivere una Tesi in Latex
+Guida per scrivere una Tesi in Latex, con tanto di Template in ITA & ENG e istruzioni per adattare l'immagine di copertina alla vostra Università, Default: Politecnico di Torino.
