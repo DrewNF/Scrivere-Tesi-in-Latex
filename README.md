@@ -37,6 +37,7 @@ Il progetto ha una struttura abbastanza semplice e intuitiva:
   5. **chapters** (Cartella contenente i relativi file dei capitoli);
 
 Vediamo ora nel dettaglio i singoli elementi:
+
 **1. main.tex (File principale)** :
 
 ## 2.Elementi Base per la Scrittura
