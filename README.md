@@ -1,5 +1,5 @@
 # Scrivere una Tesi in Latex
-(Version 0.1, Last Update 20-03-2017)
+(Version 0.3, Last Update 15-04-2017)
 
 ### Guida per scrivere una Tesi in Latex, con tanto di Template in ITA & ENG e istruzioni per adattare l'immagine di copertina alla vostra Università (Default: Politecnico di Torino).
 
@@ -166,4 +166,5 @@ Il progetto ha lo scopo di racchiudere in un unica pagina:
 
 ## 6.Acknowledgements
 
+Ringrazio il mio Erasmus+ alla FIB UPC Barcelona Tech, per avermi spinto a utilizzare e approfondire la mia conoscienza su latex e i suoi grandi pregi.
 
