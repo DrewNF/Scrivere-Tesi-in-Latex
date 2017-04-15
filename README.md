@@ -38,8 +38,66 @@ Il progetto ha una struttura abbastanza semplice e intuitiva:
 
 Vediamo ora nel dettaglio i singoli elementi:
 
-**1. main.tex (File principale)** :
-
+  **1. main.tex (File principale)** :
+  
+  In questo file vengono:
+  - Importate le impostazioni utili per la formattazione del Testo;
+  - Importato il file relativo alla bibliografia;
+  - Scritti i capitoli utili come Dediche e Riconoscimenti.
+  - Importati singoli capitoli contenuti nella cartella chapters;
+  - Stampate le liste dei contenuti utili;
+  
+  In dettaglio, **qua importiamo le impostazioni**:
+  
+   ```latex      
+    parser = argparse.ArgumentParser()
+    \usepackage{fancyhdr}
+    \usepackage{listings}
+    \usepackage[italian]{babel}
+    \usepackage{subcaption}
+    \usepackage{caption}
+    \usepackage[table,xcdraw]{xcolor}
+    \usepackage{comment}
+    \usepackage{adjustbox}
+  ```
+  
+   **Qua importiamo il file della bibliografia**:
+  
+  ```latex      
+    \addbibresource{references.bib}
+  ```
+  
+   **Qua scriviamo capitoli inline nel file**:
+  
+  ```latex      
+    \chapter*{Dediche}
+    % DEDIC£
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque massa eu lacus vestibulum elementum. 
+  ```
+  
+   **Qua importiamo i singoli capitoli**:
+  
+  ```latex      
+    \chapter{Stato dell'Arte}
+    \input{chapters/4_stateoftheart}
+    \chapter{Metodologia}
+    \input{chapters/5_methodology}
+    \chapter{Sviluppo del Lavoro}
+    \input{chapters/6_development}
+    \chapter{Valutazione del Lavoro}
+    \input{chapters/7_evaluation}
+    \chapter{Conclusioni}
+    \input{chapters/8_conclusion}
+  ```
+    
+   **Infine stampiamo le liste dei contenuti**:
+  
+  ```latex      
+    \tableofcontents
+    \listoffigures
+    \listoftables
+    \printbibliography 
+  ```
 ## 2.Elementi Base per la Scrittura
 ## 3.Link Utili
 ## 4.Copyright
