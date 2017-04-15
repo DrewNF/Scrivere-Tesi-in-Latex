@@ -22,7 +22,7 @@ Di seguito un indice di quello che descriverò in questa guida:
 
 1. **[Struttura del Progetto](#1struttura-del-progetto);**
 2. **[Elementi Base per la Scrittura](#2elementi-base-per-la-scrittura);**
-3. **[Link Utili](#3yolo-script-usage)**
+3. **[Link Utili](#3link-utili)**
 4. **[Copyright](#4copyright);**
 5. **[State of the Project](#5state-of-the-project).**
 6. **[Acknowledgements](#6acknowledgements).**
