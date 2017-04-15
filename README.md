@@ -22,7 +22,7 @@ Di seguito un indice di quello che descriverò in questa guida:
 
 1. **[Struttura del Progetto](#1struttura-del-progetto);**
 2. **[Elementi Base per la Scrittura](#2elementi-base-per-la-scrittura);**
-3. **[Link Utili](#3link-utili)**
+3. **[Link Utili](#3link-utili);**
 4. **[Copyright](#4copyright);**
 5. **[State of the Project](#5state-of-the-project).**
 6. **[Acknowledgements](#6acknowledgements).**
@@ -36,7 +36,7 @@ Il progetto ha una struttura abbastanza semplice e intuitiva:
   2. **references.lib** (File con le referenze alla bibliografia);
   3. **image_support** (Cartella contenente la immagini di supporto, es copertina);
   4. **image_thesis** (Cartella contenente la immagini della tesi, es grafici schemi etc);
-  5. **chapters** (Cartella contenente i relativi file dei capitoli);
+  5. **chapters** (Cartella contenente i relativi file dei capitoli).
 
 Vediamo ora nel dettaglio i singoli elementi:
 
@@ -45,9 +45,9 @@ Vediamo ora nel dettaglio i singoli elementi:
   In questo file vengono:
   - Importate le impostazioni utili per la formattazione del Testo;
   - Importato il file relativo alla bibliografia;
-  - Scritti i capitoli utili come Dediche e Riconoscimenti.
+  - Scritti i capitoli utili come Dediche e Riconoscimenti;
   - Importati singoli capitoli contenuti nella cartella chapters;
-  - Stampate le liste dei contenuti utili;
+  - Stampate le liste dei contenuti utili.
   
   In dettaglio, **qua importiamo le impostazioni**:
   
@@ -218,7 +218,7 @@ Per conoscenze e formattazioni più approfondite, vi rimando alla sezione coi li
   - [Inserire le Tabelle](https://it.sharelatex.com/learn/Tables);
   - [Paragrafi e Nuova Linea](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
   - [Grossetto, Corsivo e Sottolineato](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
-  - [Utilizzare le Liste](https://it.sharelatex.com/learn/Lists).
+  - [Utilizzare le Liste](https://it.sharelatex.com/learn/Lists);
   - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
   - [Note a Piè Pagina](https://it.sharelatex.com/learn/Footnotes);
   - [Allineamento del Testo](https://it.sharelatex.com/learn/Text_alignment).
