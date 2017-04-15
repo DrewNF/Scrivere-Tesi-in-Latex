@@ -101,12 +101,12 @@ Vediamo ora nel dettaglio i singoli elementi:
   
   L'ordine con cui vengono specificati questi punti dipende dalle scelte dell'autore, nel file fornitovi, l'ordine è quello classico, quindi potete tranquillamente lasciare le cose come stanno e modificare solamente capitoli e contenuti.
   
-  
-    **2. references.lib (File con le referenze alla bibliografia)**:
+  **2. references.lib (File con le referenze alla bibliografia)**:
     
     Il references.lib file è molto comodo permette di specificare due diverse tipologie di sorgenti e richiamarle all'interno del testo, sarà poi il compilatore a stamparne la lista ordinata alla fine.
     Le possibilità sono le seguenti:
-    
+  
+  
       ```latex      
     %%% ARTICLES
 
