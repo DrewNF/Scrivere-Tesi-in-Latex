@@ -1,7 +1,9 @@
 # Scrivere una Tesi in Latex
-(Version 0.3, Last Update 15-04-2017)
+(Version 2.0, Last Update 15-04-2017)
 
 ### Guida per scrivere una Tesi in Latex, con tanto di Template in ITA & ENG e istruzioni per adattare l'immagine di copertina alla vostra Università (Default: Politecnico di Torino).
+
+### Per qualsiasi dubbio o approfondimento, non esitate ad aprire una Issue, vi risponderò molto volentieri!
 
 Questa Repository ha lo scopo di spingere ed aiutare gli studenti ad utilizzare [Latex](https://www.latex-project.org/), per sviluppare più agilmente la propria Tesi, Paper Accademici o perchè no, Libri.
 
@@ -152,7 +154,9 @@ Per definire **Paragrafi e Sottoparagrafi** usiamo:
 
   ```latex      
     \section{Morbi}
+    Morbi ac varius enim, ac lobortis odio. 
     \subsection{Et amo}
+    Nullam venenatis, erat in faucibus vestibulum, magna dolor faucibus sapien, ac iaculis tellus urna ut purus.
   ```
 Per definire **Immagini** usiamo:
 
@@ -181,9 +185,43 @@ Per definire **Tabelle** usiamo:
     \label{tab:template_table_c}
     \end{table}
   ```
+Un consiglio per la creazione e gestione delle tabelle, è di usare il seguente [Editor On line](http://www.tablesgenerator.com/) che permette di creare la tabella graficamente e quindi esportare poi il codice nel file Latex.
 
+Per citare nel testo rispettivamente **Bibliografia**, **Immagini**, **Tabelle**  usiamo:
+
+  ```latex      
+   \cite{lorem_article} 
+   
+   \ref{fig:template_cat}
+   
+   \ref{tab:template_table}
+  ```
+La comodità di citare così le nostre fonti, è che non dovremmo occuparci di controllare le referenze numeriche e l'ordine, perchè Latex lo farà al posto nostro.
+
+Per creare **elenchi puntati** usiamo:
+
+  ```latex      
+    \begin{itemize}
+      \item  Contribution 1;
+      \item  Contribution 2;
+      \item  Contribution 3.
+    \end{itemize}
+  ```
+
+Per conoscenze e formattazioni più approfondite, vi rimando alla sezione coi link utili dove inserirò tutti i link a guide ufficiali che spiegano le differenti possibilità di formattazione del testo, dalla sua grandezza all bold e italic, a composizioni multi-immagine etc...
   
 ## 3.Link Utili
+
+  - [Upload di un Progetto](https://it.sharelatex.com/learn/Uploading_a_project);
+  - [Uso della Bibliografia](https://it.sharelatex.com/learn/Using_bibliographies_in_ShareLaTeX);
+  - [Inserire le Immagini](https://it.sharelatex.com/learn/Inserting_Images);
+  - [Inserire le Tabelle](https://it.sharelatex.com/learn/Tables);
+  - [Paragrafi e Nuova Linea](https://it.sharelatex.com/learn/Paragraphs_and_new_lines);
+  - [Grossetto, Corsivo e Sottolineato](https://it.sharelatex.com/learn/Bold,_italics_and_underlining);
+  - [Utilizzare le Liste](https://it.sharelatex.com/learn/Lists).
+  - [Headers & Footers](https://it.sharelatex.com/learn/Headers_and_footers);
+  - [Note a Piè Pagina](https://it.sharelatex.com/learn/Footnotes);
+  - [Allineamento del Testo](https://it.sharelatex.com/learn/Text_alignment).
 
 ## 4.Copyright
 
