@@ -152,10 +152,9 @@ Vediamo ora nel dettaglio i singoli elementi:
 
 ## 4.Copyright
 
-According to the LICENSE file of the original code,
-
-Me and original author hold no liability for any damages;
-Do not use this on commercial!.
+According to the LICENSE file of the original code:
+  - Me and original author hold no liability for any damages;
+  - Do not use this on commercial!.
 
 ## 5.State of the Project
 
