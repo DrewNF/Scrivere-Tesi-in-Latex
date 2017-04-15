@@ -135,11 +135,16 @@ Vediamo ora nel dettaglio i singoli elementi:
     }
   ```
   
- **3. image_support (Cartella contenente la immagini di supporto, es copertina) &
-  4. image_thesis (Cartella contenente la immagini della tesi, es grafici schemi etc) **:
+ **3. image_support (Cartella contenente la immagini di supporto, es copertina) &**
+ **4. image_thesis (Cartella contenente la immagini della tesi, es grafici schemi etc)**:
   
+  Queste due cartelle sono state create per motivi di ordine generale, nel primo andranno inserite tutte quelle immagini che poi non verranno citate e usate nel testo principale.
+  Mentre nella seconda cartella vanno caricate solo quest'ultime, cosichè non vi sarà possibilità di confonderne il contenuto.
   
-  5. **chapters** (Cartella contenente i relativi file dei capitoli);
+ **5. chapters (Cartella contenente i relativi file dei capitoli)**:
+ 
+ Infine in questa cartella vengono contenuti i file relativi ai singoli capitoli, dove saranno contenuti sezioni, sottosezioni, contenuti, citazioni, ma principalmente il testo.
+ 
 
 ## 2.Elementi Base per la Scrittura
 ## 3.Link Utili
