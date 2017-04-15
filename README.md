@@ -98,6 +98,45 @@ Vediamo ora nel dettaglio i singoli elementi:
     \listoftables
     \printbibliography 
   ```
+  L'ordine con cui vengono specificati questi punti dipende dalle scelte dell'autore, nel file fornitovi, l'ordine è quello classico, quindi potete tranquillamente lasciare le cose come stanno e modificare solamente capitoli e contenuti.
+  
+    **2. references.lib (File con le referenze alla bibliografia)**:
+    
+    Il references.lib file è molto comodo permette di specificare due diverse tipologie di sorgenti e richiamarle all'interno del testo, sarà poi il compilatore a stamparne la lista ordinata alla fine.
+    Le possibilità sono le seguenti:
+      ```latex      
+    %%% ARTICLES
+
+    @ARTICLE{lorem_article,
+       author = {{Redmon}, J. and {Divvala}, S. and {Girshick}, R. and {Farhadi}, A.
+      },
+        title = "{You Only Look Once: Unified, Real-Time Object Detection}",
+      journal = {ArXiv e-prints},
+    archivePrefix = "arXiv",
+       eprint = {1506.02640},
+     primaryClass = "cs.CV",
+     keywords = {Computer Science - Computer Vision and Pattern Recognition},
+         year = 2015,
+        month = jun,
+       adsurl = {http://adsabs.harvard.edu/abs/2015arXiv150602640R},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
+    %%% WEBSITE
+
+    @online{lorem_web,
+        author        = {Berkley},
+        title         = {Caffe, Deep Learning Framework},
+        year          = {2008},
+        url           = {http://caffe.berkeleyvision.org/}
+    }
+  ```
+  **3. image_support (Cartella contenente la immagini di supporto, es copertina) &
+  4. image_thesis (Cartella contenente la immagini della tesi, es grafici schemi etc) **:
+  
+  
+  5. **chapters** (Cartella contenente i relativi file dei capitoli);
+
 ## 2.Elementi Base per la Scrittura
 ## 3.Link Utili
 ## 4.Copyright
