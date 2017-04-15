@@ -30,11 +30,14 @@ Di seguito un indice di quello che descriverò in questa guida:
 
 Latex è un compilatore di Testi, quindi necessita di una struttura di file, che una volta compilati compone in un testo unico, non dovremmo occuparci quindi di nulla ovvero: identazione, allineamento etc, dobbiamo solo impostare i giusti parametri e tutto verrà fatto in automatico.
 Il progetto ha una struttura abbastanza semplice e intuitiva:
-  1. main.tex (File principale);
-  2. references.lib (File con le referenze alla bibliografia);
-  3. image_support (Cartella contenente la immagini di supporto, es copertina);
-  4. image_thesis (Cartella contenente la immagini della tesi, es grafici schemi etc);
-  5. chapters (Cartella contenente i relativi file dei capitoli);
+  1. **main.tex** (File principale);
+  2. **references.lib** (File con le referenze alla bibliografia);
+  3. **image_support** (Cartella contenente la immagini di supporto, es copertina);
+  4. **image_thesis** (Cartella contenente la immagini della tesi, es grafici schemi etc);
+  5. **chapters** (Cartella contenente i relativi file dei capitoli);
+
+Vediamo ora nel dettaglio i singoli elementi:
+1. **main.tex** (File principale):
 
 ## 2.Elementi Base per la Scrittura
 ## 3.Link Utili
