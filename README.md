@@ -98,12 +98,15 @@ Vediamo ora nel dettaglio i singoli elementi:
     \listoftables
     \printbibliography 
   ```
+  
   L'ordine con cui vengono specificati questi punti dipende dalle scelte dell'autore, nel file fornitovi, l'ordine è quello classico, quindi potete tranquillamente lasciare le cose come stanno e modificare solamente capitoli e contenuti.
+  
   
     **2. references.lib (File con le referenze alla bibliografia)**:
     
     Il references.lib file è molto comodo permette di specificare due diverse tipologie di sorgenti e richiamarle all'interno del testo, sarà poi il compilatore a stamparne la lista ordinata alla fine.
     Le possibilità sono le seguenti:
+    
       ```latex      
     %%% ARTICLES
 
@@ -131,6 +134,7 @@ Vediamo ora nel dettaglio i singoli elementi:
         url           = {http://caffe.berkeleyvision.org/}
     }
   ```
+  
   **3. image_support (Cartella contenente la immagini di supporto, es copertina) &
   4. image_thesis (Cartella contenente la immagini della tesi, es grafici schemi etc) **:
   
