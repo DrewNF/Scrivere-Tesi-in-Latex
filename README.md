@@ -145,9 +145,44 @@ Vediamo ora nel dettaglio i singoli elementi:
  
  Infine in questa cartella vengono contenuti i file relativi ai singoli capitoli, dove saranno contenuti sezioni, sottosezioni, contenuti, citazioni, ma principalmente il testo.
  
-
 ## 2.Elementi Base per la Scrittura
 
+In questo capitolo vi indicherò le principali formule utili per la stesura e strutturazione del testo all'interno dei singoli capitoli.
+Per definire **Paragrafi e Sottoparagrafi** usiamo:
+
+  ```latex      
+    \section{Morbi}
+    \subsection{Et amo}
+  ```
+Per definire **Immagini** usiamo:
+
+  ```latex      
+    \begin{figure}[h!]
+    \includegraphics[scale=0.3]{lorem_image.png} 
+    \centering
+    \caption{Morbi ac varius enim, ac lobortis odio. Nullam venenatis, erat in faucibus vestibulum, magna dolor faucibus sapien, ac iaculis tellus urna ut purus. Pellentesque finibus urna eget maximus cursus. Aenean mollis ante nec dolor iaculis, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus odio dictum vitae.}
+    \label{fig:template_cat_c}
+    \end{figure}
+  ```
+Per definire **Tabelle** usiamo:
+
+  ```latex      
+    \begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+    \textbf{Team name}      & \textbf{Entry description}                                                                                                & \textbf{\begin{tabular}[c]{@{}c@{}}Number of\\  object \\ categories won\end{tabular}} & \textbf{mAP}                    \\ \hline
+    \textbf{NUIST}          & \begin{tabular}[c]{@{}c@{}}cascaded region regression \\ + tracking\end{tabular}                                          & 10                                                                                     & {\color[HTML]{FE0000} 0.808292} \\ \hline
+    \textbf{NUIST}          & \begin{tabular}[c]{@{}c@{}}cascaded region regression \\  + tracking\end{tabular}                                         & 10                                                                                     & 0.803154                        \\ \hline
+    \textbf{CUVideo}        & \begin{tabular}[c]{@{}c@{}}4-model ensemble with\\ Multi-Context Suppression and\\ Motion-Guided Propagation\end{tabular} & 9                                                                                      & 0.767981                        \\ \hline
+    \textbf{Trimps-Soushen} & Ensemble 2                                                                                                                & 1                                                                                      & 0.709651                        \\ \hline
+    \end{tabular}
+    \caption{Morbi ac varius enim, ac lobortis odio. Nullam venenatis, erat in faucibus vestibulum, magna dolor faucibus sapien, ac iaculis tellus urna ut purus. Pellentesque finibus urna eget maximus cursus. Aenean mollis ante nec dolor iaculis, ac malesuada enim ultrices. Aenean vulputate felis sapien, quis rhoncus odio dictum vitae.}
+    \label{tab:template_table_c}
+    \end{table}
+  ```
+
+  
 ## 3.Link Utili
 
 ## 4.Copyright
