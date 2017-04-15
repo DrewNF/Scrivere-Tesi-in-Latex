@@ -147,9 +147,23 @@ Vediamo ora nel dettaglio i singoli elementi:
  
 
 ## 2.Elementi Base per la Scrittura
+
 ## 3.Link Utili
+
 ## 4.Copyright
+
+According to the LICENSE file of the original code,
+
+Me and original author hold no liability for any damages;
+Do not use this on commercial!.
+
 ## 5.State of the Project
+
+Il progetto ha lo scopo di racchiudere in un unica pagina:
+- Le informazioni utili per scrivere un testo con Latex;
+- File Progetto per scrivere il testo principale;
+- File Progetto per scrivere il riassunto.
+
 ## 6.Acknowledgements
 
 
