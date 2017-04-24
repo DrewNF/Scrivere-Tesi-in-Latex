@@ -1,0 +1,48 @@
+\documentclass[12pt,singleside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[a4paper,width=150mm,right=30mm,left=30mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{comment}
+\usepackage{adjustbox}
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+\usepackage{needspace}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Thesis Resume}
+\fancyfoot[CO,RE]{Author Name}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\graphicspath{ {images_support/} {images_thesis/} }
+\title{{Thesis Title}\\
+	{\large University}\\
+	{\label{img:logo_UPC}
+	\includegraphics[scale=0.5]{logo_UPC.jpg}}
+}
+\author{Author Name}
+\date{Month, Year}
+% start of the document.
+\begin{document}
+\input{chapters/0_title_page}
+% blank page code start
+\clearpage
+\input{chapters/1_resume}
+\clearpage
+\chapter*{List of Contributions}
+\input{chapters/2_contributions}
+% blank page code start
+\clearpage
+\printbibliography 
+
+
+\end{document}
+

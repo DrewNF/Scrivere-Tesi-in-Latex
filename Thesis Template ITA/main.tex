@@ -1,0 +1,109 @@
+% Definizione Documento
+% Font size: 12pt 
+% Allineamento Documento: twoside, possibile singleside
+
+\documentclass[12pt,twoside]{report}
+
+% Importazione packages 
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[a4paper,width=150mm,right=30mm,left=30mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage[italian]{babel}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{comment}
+\usepackage{adjustbox}
+\usepackage{needspace}
+\usepackage[backend=biber]{biblatex}
+
+% Importazione References Lib
+
+\addbibresource{references.bib}
+
+% Settaggio parametri tesi e packages
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Author Name}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% Settaggio path cartelle immagini tesi
+\graphicspath{ {images_support/} {images_thesis/} }
+%TITOLO
+\title{{Thesis Title}\\
+	{\large University}\\
+	{\label{img:logo_UPC}
+	\includegraphics[scale=0.5]{logo_UPC.jpg}}
+}
+%AUTORE
+\author{Author}
+%DATA
+\date{Date}
+% inizio del documento
+\begin{document}
+\input{chapters/1_title_page}
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\input{chapters/2_abstract}
+
+\chapter*{Dediche}
+% DEDIC£
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque massa eu lacus vestibulum elementum. Vestibulum nibh neque, blandit a felis nec, sollicitudin lobortis metus. Integer nec ipsum sit amet nibh eleifend maximus. Praesent diam augue, vestibulum a augue ac, egestas aliquet orci. Vivamus eu dui sed nisl fringilla blandit sit amet ac urna. Duis aliquet orci sit amet eleifend cursus. Pellentesque vitae vulputate velit. Curabitur commodo dui at nibh tincidunt, et porttitor nibh tincidunt. Praesent mauris eros, porttitor sed cursus ut, vulputate non purus. Aenean ut nibh quis odio laoreet malesuada volutpat eu elit. Suspendisse vulputate ipsum accumsan nibh ornare ullamcorper. Quisque vitae arcu urna.
+
+\chapter*{Riconoscimenti}
+% RICONOSCIMENTI
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque massa eu lacus vestibulum elementum. Vestibulum nibh neque, blandit a felis nec, sollicitudin lobortis metus. Integer nec ipsum sit amet nibh eleifend maximus. Praesent diam augue, vestibulum a augue ac, egestas aliquet orci. Vivamus eu dui sed nisl fringilla blandit sit amet ac urna. Duis aliquet orci sit amet eleifend cursus. Pellentesque vitae vulputate velit. Curabitur commodo dui at nibh tincidunt, et porttitor nibh tincidunt. Praesent mauris eros, porttitor sed cursus ut, vulputate non purus. Aenean ut nibh quis odio laoreet malesuada volutpat eu elit. Suspendisse vulputate ipsum accumsan nibh ornare ullamcorper. Quisque vitae arcu urna.\par
+
+In et nunc finibus, sodales nibh vitae, vehicula odio. Donec arcu diam, eleifend sed mi ut, congue pellentesque tortor. Ut pretium finibus elit, efficitur elementum ligula euismod nec. In hac habitasse platea dictumst. Vivamus auctor rhoncus magna. Ut venenatis sapien non eros feugiat faucibus. Fusce vel risus eget ante tristique condimentum. Nulla imperdiet rhoncus urna sit amet consectetur.\par
+
+
+% tabella dei contenuti più importazione dei diversi capitoli esterni cosiche il file è più leggibile
+
+\tableofcontents
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\listoffigures
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\listoftables
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\chapter*{List of Contributions}
+\input{chapters/0_contributions}
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\chapter{Introduzione, Motivazioni e Goal}
+\input{chapters/3_introduction}
+% codice pagina bianca inizio
+\clearpage\pagestyle{empty}\mbox{}\clearpage
+% codice pagina bianca fine
+\chapter{Stato dell'Arte}
+\input{chapters/4_stateoftheart}
+\chapter{Metodologia}
+\input{chapters/5_methodology}
+\chapter{Sviluppo del Lavoro}
+\input{chapters/6_development}
+\chapter{Valutazione del Lavoro}
+\input{chapters/7_evaluation}
+\chapter{Conclusioni}
+\input{chapters/8_conclusion}
+% dichiarazione dell'appendix.
+\appendix
+\chapter{Appendice}
+\input{chapters/9_appendix}
+\printbibliography 
+
+\end{document}
